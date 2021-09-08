@@ -35,7 +35,7 @@ Button btnPay;
             @Override
             public void onClick(View view) {
                 Checkout checkout=new Checkout();
-                checkout.setKeyID("rzp_test_FS0db4aeL4f2mV");
+                checkout.setKeyID("enter razor pay secreat id");
                 checkout.setImage(R.drawable.rozar);
 
                 JSONObject jsonObject=new JSONObject();
